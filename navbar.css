@@ -1,0 +1,24 @@
+/*
+    Document   : navbar.css
+    Created on : 2015-05-26 05:13 PM
+    Author     : MyNameIsJeff
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+ #navbar > list-style {
+    display: inline-block
+    border: 2px solid black;
+    padding: 5px;
+} 
+
+/*#navbar > list-style {
+	   Display:inline;
+	   text-decoration:none;
+	   color:MintWhite;
+	   padding:20px;
+	   width:550px;
+	   border-style:solid;
+	   background-color:GhostWhite;
+	  }
+*/
