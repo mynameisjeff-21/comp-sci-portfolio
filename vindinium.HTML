@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>VINDINIUM</title>
+     <link rel="stylesheet" type="text/css" href="navbar.css">
+  </head>
+  <body>
+      <ul id="navbar">
+        <li><a href="Calculator.HTML">CALCULATOR</a></li>
+        <li><a href="c4.html">CONNECT 4</a></li>
+        <li><a href="Tic-Tac-Toe.HTML">Tic-Tac-Toe</a></li>
+        <li><a href="hangman.html">HANGMAN</a></li>
+        <li><a href="vindinium.HTML">VINDINIUM</a></li>
+        <li><a href="Index.html">ABOUT ME</a></li>  
+    </ul>
+ 
+  <p style="color:Blue"> Vindinium is a code based game where you have to use code in order to make your bot move around the map and attack other players as well</p>
+  <p style="color:Blue></p>
+  <img source="http://i.imgur.com/8NlAaFv.png">
+  <p style="color:Blue"">The way to win the game is by having as many gold mines as your bot can take and depending on how many mines you have your gold will go up and if you have the most by the end of the game you win</p>
+  <p style="color:Blue">Also if you lose health you can code your bot to go to a tavern once it has a certain amount of health to go to a tavern and gain health by paying 2 gold</p>
+      <p style="color:Blue"><code><pre>  else if(bot.yourBot.life < 40){ 
+      task = "tavern";
+        }
+        else{
+            task = "freemines"; 
+        }
+        </pre></code></p>
+  <p style="color:Blue">what the code above does is it allows my bot to go to the tavern once it gets to 40 health it will go to the nearest tavern that the bot can find</p>
+      <p style="color:Blue"> Also the other half of the code allows will take freemines that are near by the bot</p>    
+  </body>
+     <style>#navbar > list-style {
+	   Display:inline;
+	   text-decoration:none;
+	   color:MintWhite;
+	   padding:20px;
+	   width:550px;
+	   border-style:solid;
+	   background-color:GhostWhite;
+	  }
+    </style>   
+  </html>

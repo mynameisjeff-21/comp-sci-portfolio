@@ -1,0 +1,22 @@
+{
+ "sections": [
+  {
+   "id": "22fee95-429f-5bf5-939a-a1785a2bace6",
+   "title": "Section 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-1-22fe.md"
+  },
+  {
+   "id": "47a2432d-3f0b-2b35-201e-cc7f0585953",
+   "title": "Section 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-2-47a2.md"
+  }
+ ],
+ "theme": "charcoal",
+ "scripts": []
+}
